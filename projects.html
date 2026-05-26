@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Metadata -->
+  <title>Projects & Softwares | Devarasetty Prethikesh Portfolio</title>
+  <meta name="description" content="Explore a showcase of advanced Java systems, web platforms, and custom algorithmic structures built by Devarasetty Prethikesh.">
+  <meta name="keywords" content="Devarasetty Prethikesh, MockMate, BookMyStayApp, TrainConsistManagementApp, HASH-TABLE, Java projects, student software developer">
+  <meta name="author" content="Devarasetty Prethikesh">
+  <link rel="canonical" href="https://github.com/Devarasetty-Pratikesh">
+
+  <!-- Open Graph / Facebook Metas -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Devarasetty-Pratikesh">
+  <meta property="og:title" content="Projects Showcase | Devarasetty Prethikesh Portfolio">
+  <meta property="og:description" content="View immersive virtual blueprints and details of next-generation application architectures.">
+  <meta property="og:image" content="https://github.com/Devarasetty-Pratikesh/assets/og-image.jpg">
+
+  <!-- Twitter Card Metas -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://github.com/Devarasetty-Pratikesh">
+  <meta name="twitter:title" content="Projects Showcase | Devarasetty Prethikesh Portfolio">
+  <meta name="twitter:description" content="View immersive virtual blueprints and details of next-generation application architectures.">
+  <meta name="twitter:image" content="https://github.com/Devarasetty-Pratikesh/assets/og-image.jpg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Skip-to-Content Link for Keyboard Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- High-Performance Interactive Particle Canvas Background -->
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-left" aria-hidden="true"></div>
+
+  <div class="site-container">
+    
+    <!-- HEADER AND ACCESSIBLE NAVIGATION -->
+    <header>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html" aria-label="Devarasetty Prethikesh Portfolio Home">
+            <span>PRETHIKESH</span><span class="logo-dot" aria-hidden="true"></span>
+          </a>
+        </div>
+        
+        <nav aria-label="Primary Navigation">
+          <!-- Mobile Hamburger Button -->
+          <button id="hamburger-menu" class="hamburger-menu" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line" aria-hidden="true"></span>
+            <span class="hamburger-line" aria-hidden="true"></span>
+            <span class="hamburger-line" aria-hidden="true"></span>
+          </button>
+          
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="experience.html" class="nav-link">Education</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="nav-controls">
+          <!-- Theme Toggle Switch -->
+          <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light mode">
+            <!-- Sun Icon (for dark mode active) -->
+            <svg class="sun-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-12.37c-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.38.39-1.02 0-1.41zM6.99 16.95l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.02-.39-1.41 0z"/>
+            </svg>
+            <!-- Moon Icon (for light mode active) -->
+            <svg class="moon-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display: none;">
+              <path d="M12.3 2a10 10 0 0 0-1.9 14 10 10 0 0 0 14-1.9 1 1 0 0 1 .8 1.5 12 12 0 1 1-14.4-14.4 1 1 0 0 1 1.5.8z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- PAGE TITLE HEADER -->
+    <div class="page-title-section reveal active">
+      <h1 class="page-title">Project <span>Showcase</span></h1>
+      <p class="page-subtitle">Interactive blueprints of custom applications, utilities, and algorithmic structures.</p>
+    </div>
+
+    <!-- MAIN BODY -->
+    <main id="main-content">
+      
+      <!-- Classification Filters (Accessible Toolbar) -->
+      <div class="filter-container reveal" role="toolbar" aria-label="Filter Projects By Category">
+        <button type="button" class="filter-btn active" data-filter="all">All Specs</button>
+        <button type="button" class="filter-btn" data-filter="java">Java Core</button>
+        <button type="button" class="filter-btn" data-filter="javascript">JavaScript Web</button>
+        <button type="button" class="filter-btn" data-filter="dsa">Structures & Alg</button>
+      </div>
+
+      <!-- PROJECTS GRID -->
+      <section class="projects-grid scene-3d" aria-label="Portfolio Project Grid">
+        
+        <!-- PROJECT 1: MOCKMATE -->
+        <article class="project-card tilt-card reveal" data-category="javascript" aria-labelledby="proj-title-mockmate">
+          <div class="project-thumbnail" aria-hidden="true">
+            <div class="project-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+              </svg>
+            </div>
+          </div>
+          <h2 id="proj-title-mockmate" class="project-title depth-layer">MockMate</h2>
+          <p class="project-desc depth-layer">
+            An AI-powered mock interview and study prep application built to generate custom questions and evaluate user responses.
+          </p>
+          <div class="project-footer depth-layer">
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+            <button type="button" class="btn btn-cyber" data-open-modal="modal-mockmate" aria-label="View MockMate blueprints">
+              Blueprints
+            </button>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: BOOKMYSTAYAPP -->
+        <article class="project-card tilt-card reveal" data-category="java" aria-labelledby="proj-title-bookmystay" style="transition-delay: 0.1s;">
+          <div class="project-thumbnail" aria-hidden="true">
+            <div class="project-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+          </div>
+          <h2 id="proj-title-bookmystay" class="project-title depth-layer">BookMyStay</h2>
+          <p class="project-desc depth-layer">
+            A Java-based enterprise hotel booking application implementing structural design patterns and modular booking registries.
+          </p>
+          <div class="project-footer depth-layer">
+            <div class="project-tags">
+              <span class="project-tag">Java Core</span>
+              <span class="project-tag">OOP</span>
+            </div>
+            <button type="button" class="btn btn-cyber" data-open-modal="modal-bookmystay" aria-label="View BookMyStay blueprints">
+              Blueprints
+            </button>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: TRAINCONSISTMANAGEMENTAPP -->
+        <article class="project-card tilt-card reveal" data-category="java" aria-labelledby="proj-title-trainconsist" style="transition-delay: 0.2s;">
+          <div class="project-thumbnail" aria-hidden="true">
+            <div class="project-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="7" width="20" height="10" rx="2" ry="2"/>
+                <circle cx="7" cy="19" r="2"/>
+                <circle cx="17" cy="19" r="2"/>
+              </svg>
+            </div>
+          </div>
+          <h2 id="proj-title-trainconsist" class="project-title depth-layer">Train Consist</h2>
+          <p class="project-desc depth-layer">
+            An algorithmic railroad simulation and consist layout controller built to manage schedules and rolling inventory details.
+          </p>
+          <div class="project-footer depth-layer">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Algorithms</span>
+            </div>
+            <button type="button" class="btn btn-cyber" data-open-modal="modal-trainconsist" aria-label="View Train Consist blueprints">
+              Blueprints
+            </button>
+          </div>
+        </article>
+
+        <!-- PROJECT 4: HASH-TABLE -->
+        <article class="project-card tilt-card reveal" data-category="dsa" aria-labelledby="proj-title-hashtable" style="transition-delay: 0.3s;">
+          <div class="project-thumbnail" aria-hidden="true">
+            <div class="project-thumb-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 3v18M3 12h18"/>
+                <circle cx="12" cy="12" r="5"/>
+              </svg>
+            </div>
+          </div>
+          <h2 id="proj-title-hashtable" class="project-title depth-layer">HASH-TABLE</h2>
+          <p class="project-desc depth-layer">
+            A high-performance custom Hash Table implementation in Java analyzing complex load factors and collision boundaries.
+          </p>
+          <div class="project-footer depth-layer">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Data Structures</span>
+            </div>
+            <button type="button" class="btn btn-cyber" data-open-modal="modal-hashtable" aria-label="View HASH-TABLE blueprints">
+              Blueprints
+            </button>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <!-- ==========================================================================
+         ACCESSIBLE DETAIL MODALS (STAGED STATICALLY)
+         ========================================================================== -->
+
+    <!-- MODAL 1: MOCKMATE -->
+    <div id="modal-mockmate" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-mockmate-title" style="display: none;">
+      <div class="modal-container">
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Close MockMate details">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+        <div class="modal-header">
+          <h2 id="modal-mockmate-title" class="modal-title">MockMate</h2>
+          <div class="modal-tags">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">AI Integration</span>
+          </div>
+        </div>
+        <div class="modal-content">
+          <p class="modal-desc">
+            MockMate is an AI-powered mock interview preparation platform. It generates tailored interview questions depending on the target role and evaluates user text/voice inputs. Built with modular JavaScript modules, it supports real-time performance logging, detailed structural scoring, and tips for improvement.
+          </p>
+          <div class="modal-actions">
+            <a href="https://github.com/Devarasetty-Pratikesh/MockMate" class="btn btn-primary" target="_blank" rel="noopener">Explore Repository</a>
+            <button type="button" class="btn btn-secondary" data-close-modal>Close Blueprint</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2: BOOKMYSTAYAPP -->
+    <div id="modal-bookmystay" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-bookmystay-title" style="display: none;">
+      <div class="modal-container">
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Close BookMyStay details">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+        <div class="modal-header">
+          <h2 id="modal-bookmystay-title" class="modal-title">BookMyStay</h2>
+          <div class="modal-tags">
+            <span class="project-tag">Java Core</span>
+            <span class="project-tag">Object-Oriented Design</span>
+            <span class="project-tag">SQL Database</span>
+          </div>
+        </div>
+        <div class="modal-content">
+          <p class="modal-desc">
+            BookMyStayApp is a robust Java application designed to coordinate stay bookings, room statuses, and customer registries. Leveraging strict Object-Oriented principles, it organizes booking workflows, guest checking matrices, and local data persistence via relational database structures.
+          </p>
+          <div class="modal-actions">
+            <a href="https://github.com/Devarasetty-Pratikesh/BookMyStayApp" class="btn btn-primary" target="_blank" rel="noopener">Explore Repository</a>
+            <button type="button" class="btn btn-secondary" data-close-modal>Close Blueprint</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 3: TRAINCONSISTMANAGEMENTAPP -->
+    <div id="modal-trainconsist" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-trainconsist-title" style="display: none;">
+      <div class="modal-container">
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Close Train Consist details">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+        <div class="modal-header">
+          <h2 id="modal-trainconsist-title" class="modal-title">Train Consist Management</h2>
+          <div class="modal-tags">
+            <span class="project-tag">Java Core</span>
+            <span class="project-tag">Scheduling Algorithms</span>
+            <span class="project-tag">Systems Logic</span>
+          </div>
+        </div>
+        <div class="modal-content">
+          <p class="modal-desc">
+            TrainConsistManagementApp is an engineering dashboard simulation coordinating rail consist configurations, locomotive-car ratios, and station schedules. Wrote optimized route-solving logic to ensure consist structures conform to safety indices while streamlining train inventories.
+          </p>
+          <div class="modal-actions">
+            <a href="https://github.com/Devarasetty-Pratikesh/TrainConsistManagementApp" class="btn btn-primary" target="_blank" rel="noopener">Explore Repository</a>
+            <button type="button" class="btn btn-secondary" data-close-modal>Close Blueprint</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 4: HASH-TABLE -->
+    <div id="modal-hashtable" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-hashtable-title" style="display: none;">
+      <div class="modal-container">
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Close HASH-TABLE details">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+        <div class="modal-header">
+          <h2 id="modal-hashtable-title" class="modal-title">HASH-TABLE</h2>
+          <div class="modal-tags">
+            <span class="project-tag">Java DSA</span>
+            <span class="project-tag">Complexity Analysis</span>
+            <span class="project-tag">Benchmark Engine</span>
+          </div>
+        </div>
+        <div class="modal-content">
+          <p class="modal-desc">
+            HASH-TABLE is a custom Java implementation of a hash map data structure from scratch. Explores collision resolution schemes (chaining and open addressing) under varying load factors. Built robust performance benchmark tools showing logarithmic time consistency against standard collections.
+          </p>
+          <div class="modal-actions">
+            <a href="https://github.com/Devarasetty-Pratikesh/HASH-TABLE" class="btn btn-primary" target="_blank" rel="noopener">Explore Repository</a>
+            <button type="button" class="btn btn-secondary" data-close-modal>Close Blueprint</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-text">
+          <p>&copy; 2026 Devarasetty Prethikesh. Engineered with absolute accessibility.</p>
+        </div>
+        <ul class="footer-links" aria-label="Secondary Site links">
+          <li class="footer-link"><a href="about.html">About</a></li>
+          <li class="footer-link"><a href="projects.html">Projects</a></li>
+          <li class="footer-link"><a href="skills.html">Skills</a></li>
+          <li class="footer-link"><a href="experience.html">Education</a></li>
+          <li class="footer-link"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+  
+  <!-- Categories Filter Action script snippet -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
+      
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Update active status in buttons
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          
+          const filter = btn.getAttribute('data-filter');
+          
+          // Animate filter hide/show
+          projectCards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.style.display = 'flex';
+              // Trigger structural reveal classes if matching
+              setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateZ(0) scale(1)';
+              }, 50);
+            } else {
+              card.style.opacity = '0';
+              card.style.transform = 'translateZ(-50px) scale(0.95)';
+              setTimeout(() => {
+                card.style.display = 'none';
+              }, 300);
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

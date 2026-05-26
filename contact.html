@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Metadata -->
+  <title>Contact Me | Devarasetty Prethikesh Portfolio</title>
+  <meta name="description" content="Get in touch with Devarasetty Prethikesh. A fully accessible, real-time validated contact portal with full keyboard support.">
+  <meta name="keywords" content="Contact Prethikesh, Hire CS Student, SRM IST, Devarasetty Prethikesh, Accessible Form Web">
+  <meta name="author" content="Devarasetty Prethikesh">
+  <link rel="canonical" href="https://github.com/Devarasetty-Pratikesh">
+
+  <!-- Open Graph / Facebook Metas -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Devarasetty-Pratikesh">
+  <meta property="og:title" content="Contact Me | Devarasetty Prethikesh Portfolio">
+  <meta property="og:description" content="Get in touch directly. An accessible, validated interactive form module with real-time feedback.">
+  <meta property="og:image" content="https://github.com/Devarasetty-Pratikesh/assets/og-image.jpg">
+
+  <!-- Twitter Card Metas -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://github.com/Devarasetty-Pratikesh">
+  <meta name="twitter:title" content="Contact Me | Devarasetty Prethikesh Portfolio">
+  <meta name="twitter:description" content="Get in touch directly. An accessible, validated interactive form module with real-time feedback.">
+  <meta name="twitter:image" content="https://github.com/Devarasetty-Pratikesh/assets/og-image.jpg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Skip-to-Content Link for Keyboard Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- High-Performance Interactive Particle Canvas Background -->
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-left" aria-hidden="true"></div>
+
+  <div class="site-container">
+    
+    <!-- HEADER AND ACCESSIBLE NAVIGATION -->
+    <header>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html" aria-label="Devarasetty Prethikesh Portfolio Home">
+            <span>PRETHIKESH</span><span class="logo-dot" aria-hidden="true"></span>
+          </a>
+        </div>
+        
+        <nav aria-label="Primary Navigation">
+          <!-- Mobile Hamburger Button -->
+          <button id="hamburger-menu" class="hamburger-menu" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line" aria-hidden="true"></span>
+            <span class="hamburger-line" aria-hidden="true"></span>
+            <span class="hamburger-line" aria-hidden="true"></span>
+          </button>
+          
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="experience.html" class="nav-link">Education</a></li>
+            <li><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="nav-controls">
+          <!-- Theme Toggle Switch -->
+          <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light mode">
+            <!-- Sun Icon (for dark mode active) -->
+            <svg class="sun-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-12.37c-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.38.39-1.02 0-1.41zM6.99 16.95l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.02-.39-1.41 0z"/>
+            </svg>
+            <!-- Moon Icon (for light mode active) -->
+            <svg class="moon-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display: none;">
+              <path d="M12.3 2a10 10 0 0 0-1.9 14 10 10 0 0 0 14-1.9 1 1 0 0 1 .8 1.5 12 12 0 1 1-14.4-14.4 1 1 0 0 1 1.5.8z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- PAGE TITLE HEADER -->
+    <div class="page-title-section reveal active">
+      <h1 class="page-title">Contact <span>Me</span></h1>
+      <p class="page-subtitle">Feel free to reach out for collaborations, job opportunities, or general inquiries.</p>
+    </div>
+
+    <!-- MAIN BODY -->
+    <main id="main-content">
+      <div class="contact-grid">
+        
+        <!-- LEFT COLUMN: CONTACT DETAILS -->
+        <section class="contact-info-column reveal" aria-labelledby="terminal-coords-heading">
+          <div class="scene-3d">
+            <div class="contact-info-card tilt-card">
+              <h2 id="terminal-coords-heading" class="contact-info-title depth-layer">Contact Details</h2>
+              
+              <ul class="contact-details-list depth-layer">
+                <li class="contact-detail-item">
+                  <div class="contact-detail-icon" aria-hidden="true">
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                      <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="contact-detail-label">Email</h3>
+                    <a href="mailto:pratikeshdevarasetty1315@gmail.com" class="contact-detail-value">pratikeshdevarasetty1315@gmail.com</a>
+                  </div>
+                </li>
+
+                <li class="contact-detail-item">
+                  <div class="contact-detail-icon" aria-hidden="true">
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/>
+                      <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="contact-detail-label">Location</h3>
+                    <span class="contact-detail-value">Visakhapatnam / Chennai, India</span>
+                  </div>
+                </li>
+
+                <li class="contact-detail-item">
+                  <div class="contact-detail-icon" aria-hidden="true">
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="contact-detail-label">Phone</h3>
+                    <a href="tel:+919014804332" class="contact-detail-value">+91 9014804332</a>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- RIGHT COLUMN: CONTACT FORM -->
+        <section class="contact-form-column reveal" style="transition-delay: 0.1s;" aria-labelledby="terminal-form-heading">
+          <div class="scene-3d">
+            <div class="contact-form-card tilt-card">
+              <h2 id="terminal-form-heading" class="sr-only">Contact Form</h2>
+              
+              <form id="portfolio-contact-form" class="contact-form" novalidate>
+                
+                <div class="form-group-row">
+                  <!-- Name Field -->
+                  <div class="form-group">
+                    <label for="user-name" class="form-label">Your Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="user-name" name="name" class="form-input" required 
+                           aria-required="true" aria-describedby="name-error" autocomplete="name">
+                    <span id="name-error" class="form-error-msg" style="display: none;" role="alert"></span>
+                  </div>
+
+                  <!-- Email Field -->
+                  <div class="form-group">
+                    <label for="user-email" class="form-label">Your Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="user-email" name="email" class="form-input" required 
+                           aria-required="true" aria-describedby="email-error" autocomplete="email">
+                    <span id="email-error" class="form-error-msg" style="display: none;" role="alert"></span>
+                  </div>
+                </div>
+
+                <!-- Subject Select Grid -->
+                <div class="form-group">
+                  <label for="user-subject" class="form-label">Subject <span aria-hidden="true">*</span></label>
+                  <select id="user-subject" name="subject" class="form-select" required aria-required="true" aria-describedby="subject-error">
+                    <option value="" disabled selected>Select a subject...</option>
+                    <option value="system-hire">Hiring / Job Opportunity</option>
+                    <option value="visual-project">Project Collaboration</option>
+                    <option value="research-collab">Research Collaboration</option>
+                    <option value="other">General Inquiry</option>
+                  </select>
+                  <span id="subject-error" class="form-error-msg" style="display: none;" role="alert"></span>
+                </div>
+
+                <!-- Message Text -->
+                <div class="form-group">
+                  <label for="user-message" class="form-label">Message <span aria-hidden="true">*</span></label>
+                  <textarea id="user-message" name="message" class="form-textarea" required 
+                            aria-required="true" aria-describedby="message-error" rows="5"></textarea>
+                  <span id="message-error" class="form-error-msg" style="display: none;" role="alert"></span>
+                </div>
+
+                <!-- Trigger Button -->
+                <button type="submit" id="submit-btn" class="btn btn-primary" style="align-self: flex-start; min-width: 180px;">
+                  Send Message
+                </button>
+
+                <!-- Screen Reader Accessible Live Status Region -->
+                <div id="form-status" class="form-status-region" aria-live="polite" role="status"></div>
+
+              </form>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-text">
+          <p>&copy; 2026 Devarasetty Prethikesh. Engineered with absolute accessibility.</p>
+        </div>
+        <ul class="footer-links" aria-label="Secondary Site links">
+          <li class="footer-link"><a href="about.html">About</a></li>
+          <li class="footer-link"><a href="projects.html">Projects</a></li>
+          <li class="footer-link"><a href="skills.html">Skills</a></li>
+          <li class="footer-link"><a href="experience.html">Education</a></li>
+          <li class="footer-link"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+  
+  <!-- Dedicated client-side accessibility form validations -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('portfolio-contact-form');
+      const submitBtn = document.getElementById('submit-btn');
+      const statusRegion = document.getElementById('form-status');
+      
+      const inputs = {
+        name: document.getElementById('user-name'),
+        email: document.getElementById('user-email'),
+        subject: document.getElementById('user-subject'),
+        message: document.getElementById('user-message')
+      };
+      
+      const errors = {
+        name: document.getElementById('name-error'),
+        email: document.getElementById('email-error'),
+        subject: document.getElementById('subject-error'),
+        message: document.getElementById('message-error')
+      };
+
+      // Inline live validity listener as user types
+      Object.keys(inputs).forEach(key => {
+        inputs[key].addEventListener('input', () => {
+          if (inputs[key].classList.contains('error')) {
+            validateField(key);
+          }
+        });
+        
+        inputs[key].addEventListener('blur', () => {
+          validateField(key);
+        });
+      });
+      
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Trigger validation across all nodes
+        let formIsValid = true;
+        Object.keys(inputs).forEach(key => {
+          const isFieldValid = validateField(key);
+          if (!isFieldValid) {
+            formIsValid = false;
+          }
+        });
+        
+        if (!formIsValid) {
+          // Send focus lock to first invalid node to aid keyboard readers
+          const firstInvalid = Object.values(inputs).find(input => input.classList.contains('error'));
+          if (firstInvalid) {
+            firstInvalid.focus();
+          }
+          statusRegion.className = "form-status-region error";
+          statusRegion.textContent = "Submission failed. Please review the error fields above.";
+          statusRegion.style.display = 'flex';
+          return;
+        }
+        
+        // Form is completely valid. Trigger sending state!
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span class="transmitting-loader"></span>Sending...';
+        statusRegion.className = "form-status-region";
+        statusRegion.style.display = 'none';
+        
+        // Asynchronously transmit form details via FormSubmit AJAX API
+        fetch("https://formsubmit.co/ajax/pratikeshdevarasetty1315@gmail.com", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify({
+            name: inputs.name.value,
+            email: inputs.email.value,
+            subject: inputs.subject.value,
+            message: inputs.message.value,
+            _subject: `New Message from Portfolio: ${inputs.name.value}`
+          })
+        })
+        .then(async response => {
+          let data;
+          const contentType = response.headers.get("content-type");
+          if (contentType && contentType.includes("application/json")) {
+            data = await response.json();
+          } else {
+            const text = await response.text();
+            data = { message: text || `API Error: Status ${response.status}` };
+          }
+          
+          if (!response.ok) {
+            throw new Error(data.message || `API Error: Status ${response.status}`);
+          }
+          return data;
+        })
+        .then(data => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Message Sent';
+          
+          statusRegion.className = "form-status-region success";
+          statusRegion.innerHTML = "<span>Your message has been sent successfully! I will get back to you shortly.</span>";
+          statusRegion.style.display = 'flex';
+          
+          form.reset();
+          
+          // Reset button text after short delay
+          setTimeout(() => {
+            submitBtn.textContent = 'Send Message';
+          }, 4000);
+        })
+        .catch(err => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Message';
+          
+          statusRegion.className = "form-status-region error";
+          statusRegion.style.display = 'flex';
+          
+          if (window.location.protocol === 'file:') {
+            statusRegion.textContent = "Security Notice: Browsers block form submissions when opening files directly (file://). Please open the page via your running local server http://localhost:8000 to test the contact form.";
+          } else {
+            // Outage / CORS Fallback UI
+            statusRegion.innerHTML = `
+              <div style="display: flex; flex-direction: column; gap: 12px; width: 100%; text-align: left;">
+                <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; font-weight: 600; color: #ff5577;">
+                  ⚠️ Submission Gateway Offline
+                </p>
+                <p style="margin: 0; font-size: 0.9rem; opacity: 0.95; line-height: 1.4; color: var(--text-primary);">
+                  The email submission server is currently experiencing an outage. 
+                  Don't worry! Your message has been saved. 
+                  You can send it directly to <strong>pratikeshdevarasetty1315@gmail.com</strong> using the pre-composed button below:
+                </p>
+                <div style="margin-top: 4px;">
+                  <button id="fallback-email-btn" class="btn btn-cyber" type="button" style="font-size: 0.85rem; padding: 10px 16px; text-transform: none; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; border-radius: 8px; font-weight: 600; background: rgba(0, 242, 254, 0.05);">
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                      <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    <span>Send via Email Client</span>
+                  </button>
+                </div>
+              </div>
+            `;
+            
+            // Add click listener to fallback button
+            document.getElementById('fallback-email-btn').addEventListener('click', () => {
+              const name = inputs.name.value;
+              const email = inputs.email.value;
+              const subjectVal = inputs.subject.value;
+              const message = inputs.message.value;
+              
+              const mailtoSubject = encodeURIComponent(`Portfolio Inquiry [${subjectVal.toUpperCase()}] from ${name}`);
+              const mailtoBody = encodeURIComponent(
+                `Hi Prethikesh,\n\n` +
+                `Here is a message from your portfolio website contact form:\n\n` +
+                `Name: ${name}\n` +
+                `Email: ${email}\n` +
+                `Subject: ${subjectVal}\n\n` +
+                `Message:\n${message}\n\n` +
+                `----------------------------`
+              );
+              
+              const mailtoUrl = `mailto:pratikeshdevarasetty1315@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+              window.location.href = mailtoUrl;
+            });
+          }
+        });
+      });
+      
+      function validateField(key) {
+        const input = inputs[key];
+        const errorSpan = errors[key];
+        let isValid = true;
+        let errMsg = "";
+        
+        if (input.required && !input.value.trim()) {
+          isValid = false;
+          errMsg = `${capitalize(key)} is required.`;
+        } else if (key === 'email' && !validateEmailFormat(input.value)) {
+          isValid = false;
+          errMsg = "Please provide a valid email address.";
+        }
+        
+        if (!isValid) {
+          input.classList.add('error');
+          input.setAttribute('aria-invalid', 'true');
+          errorSpan.textContent = errMsg;
+          errorSpan.style.display = 'block';
+        } else {
+          input.classList.remove('error');
+          input.removeAttribute('aria-invalid');
+          errorSpan.textContent = "";
+          errorSpan.style.display = 'none';
+        }
+        
+        return isValid;
+      }
+      
+      function validateEmailFormat(email) {
+        const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return re.test(String(email).toLowerCase());
+      }
+      
+      function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+      }
+    });
+  </script>
+</body>
+</html>
