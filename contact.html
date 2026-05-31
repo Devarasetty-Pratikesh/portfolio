@@ -292,19 +292,20 @@
         statusRegion.className = "form-status-region";
         statusRegion.style.display = 'none';
         
-        // Asynchronously transmit form details via FormSubmit AJAX API
-        fetch("https://formsubmit.co/ajax/pratikeshdevarasetty1315@gmail.com", {
+        // Asynchronously transmit form details via Web3Forms API
+        fetch("https://api.web3forms.com/submit", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
             "Accept": "application/json"
           },
           body: JSON.stringify({
+            access_key: "e1597c9b-d5e8-4108-a15b-85e4cd8a7508",
             name: inputs.name.value,
             email: inputs.email.value,
-            subject: inputs.subject.value,
+            subject: `Portfolio Contact [${inputs.subject.value}] from ${inputs.name.value}`,
             message: inputs.message.value,
-            _subject: `New Message from Portfolio: ${inputs.name.value}`
+            from_name: "Portfolio Contact Form"
           })
         })
         .then(async response => {
